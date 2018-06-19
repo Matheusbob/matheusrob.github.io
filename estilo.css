@@ -79,6 +79,9 @@ nav.menu button:focus{
 	background-color: #FFE0C6;
 }
 
+
+
+
 #first_menu{
 	border-left: 0;
 }
@@ -100,11 +103,19 @@ nav.menu button:focus{
 	margin-top: 3vh;
 }
 
+#banners{
+	display: inline-flex;
+	float: left;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+}
+
 a.banner{
 }
 
 div.banner{
-	width: 40vh;
+	width: 30vh;
 	height: 70vh;
 	background-color: tomato;
     float: left;
@@ -114,6 +125,7 @@ div.banner{
 
 section.about{
 	margin-left: 30vw;
+	margin-right: 30vw;
 }
 
 h2.about{
@@ -166,7 +178,7 @@ nav.contatos a{
 /* ^ Sections   Images v */
 
 div.imgs{
-	margin-top: 10vh;
+	margin-top: 20vh;
 	text-align: center;
 }
 
