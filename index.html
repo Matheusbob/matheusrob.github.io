@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<title>Matheus ROB</title>
+</head>
+<body>
+	
+	<header>
+		<h1>Matheus ROB</h1>
+
+		<nav id="home_menu" class="menu">
+			<ul>
+				<li><button id="first_menu" data-pag="design">DESIGN</button></li>
+				<li><button data-pag="ilustras">ILUSTRA</button></li>
+				<li><button data-pag="outros">OUTROS</button></li>
+				<li><button data-sobre="sobre">SOBRE</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="about" id="sobre">
+
+		<h2 class="about">Sobre</h2>
+
+		<p class="about">Aluno de Sistemas e Mídias pela UFC. Trabalho com Design, Ilustrações e algumas outras coisas. Entre em contato e vamos ter ideias.</p>
+
+	</section>
+
+	<!-- DIVS -->
+
+	<div id="banners">
+		<div class="banner" data-pag="design">
+			<a href="Design.html" data-pag="design">DESIGN</a>
+		</div>
+		<div class="banner" data-pag="ilustras">
+			<a href="Ilustra.html" data-pag="ilustras">ILUSTRA</a>
+		</div>	
+		<div class="banner" data-pag="outros"> 
+			<a href="Outros.html" data-pag="outros">OUTROS</a>
+		</div>		
+	</div>
+
+	<div id="design" class="gallery">
+		<div class="imgs">
+	    	<a data-fancybox="design" href="identidade.png"><img class="hor_img" src="identidade.png"></a>
+	        <a data-fancybox="design" href="homeyale.png"><img class="hor_img" src="homeyale.png"></a>
+		    <a data-fancybox="design" href="app.png"><img class="ver_img250" src="app.png"></a>
+		    <a data-fancybox="design" href="app2.png"><img class="ver_img250" src="app2.png"></a>
+		    <a data-fancybox="design" href="app3.png"><img class="ver_img250" src="app3.png"></a>
+	    </div>
+	</div>
+
+	<div id="ilustras" class="gallery">
+		<div class="imgs">
+	    	<a data-fancybox="ilustras" href="moomoo.png"><img class="hor_img" src="moomoo.png"></a>
+	        <a data-fancybox="ilustras" href="taurencio.png"><img class="hor_img" src="taurencio.png"></a>
+		    <a data-fancybox="ilustras" href="eileen.png"><img class="ver_img300" src="eileen.png"></a>
+		    <a data-fancybox="ilustras" href="Lauren.png"><img class="ver_img250" src="Lauren.png"></a>
+		    <a data-fancybox="ilustras" href="kachi.png"><img class="ver_img350" src="kachi.png"></a>
+	    </div>
+	</div>    
+
+	<div id="outros" class="gallery">
+		<div class="imgs">
+	    	<a data-fancybox="outros" href="lanca.jpg"><img class="ver_img250" src="lanca.jpg"></a>
+	        <a data-fancybox="outros" href="lanca2.jpg"><img class="ver_img250" src="lanca2.jpg"></a>
+	    </div>
+	</div>
+
+	<!-- DIVS -->        
+
+	<script type="text/javascript" src="code.js"></script>
+
+</body>
+</html>
