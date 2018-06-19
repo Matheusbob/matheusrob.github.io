@@ -1,0 +1,250 @@
+
+
+
+/* >>>>>> TAMANHOS DE TELA: IPAD AIR 2 e IPHONE 6s <<<<<< */
+
+body{
+	background-color: #223340;
+}
+
+h1, ul, li, a{
+	text-align: center;
+}
+
+a{ 
+	display: block;
+	text-decoration: none;
+	font-family: "Overpass Mono", "Arial";
+	line-height: 150%;
+	height: 20%;
+}
+
+header{
+	background-color: #3B596F;
+	background-position: 0px -280px;
+	margin: -6px;
+	margin-top: -50px;
+	padding: 0px;
+	height: 20vh;
+}
+
+header h1{
+	font-family: "Roboto Mono","Neustadt";
+	font-size:5em;
+	text-shadow: -2px 0 #FFE0C6, 0 2px #FFE0C6, 2px 0 #FFE0C6, 0 -2px #FFE0C6;
+	padding-top: 5vh;
+	color:   #79B7E5;
+}
+
+#home_menu{
+	display: none;
+}
+
+nav.menu{
+	background-color: #CC7C57;
+}
+
+nav.menu ul{
+	list-style: none;
+	margin-right: 40px;
+}
+
+nav.menu li{
+	display: inline-block;
+	margin-left: -5px;
+}
+
+nav.menu button{
+	font-family: "Overpass Mono", "Arial";
+	background-color: #CC7C57;
+	line-height: 150%;
+	font-size: 2.5em;
+	border: none;
+	width: 250px;
+	color: #223340;
+	transition: 0.5s background-color;
+	border-left: solid 4px;
+}
+
+nav.menu button:hover{
+	background-color: #FFE0C6;
+}	
+
+nav.menu button:focus{
+	cursor: default;
+	background-color: #FFE0C6;
+}
+
+.this_page{
+	background-color: #FFE0C6;
+}
+
+#first_menu{
+	border-left: 0;
+}
+
+/* ^ HEADER    SECTION v */
+
+.about{
+	width: 500px;
+	float: left;
+	margin-left: 3vw;
+}
+
+.destaques{
+	float: right;
+	margin-right: 3vw;
+}
+
+#div_first{
+	margin-top: 3vh;
+}
+
+a.banner{
+}
+
+div.banner{
+	width: 40vh;
+	height: 70vh;
+	background-color: tomato;
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+section.about{
+	margin-left: 30vw;
+}
+
+h2.about{
+	color: #CC7C57;
+	font-size: 40px;
+	font-family: "Roboto Mono", "Neustadt";
+	border-bottom: 5px solid  #CC7C57;
+	width: 500px;
+	text-align: center;
+}
+
+p.about{
+	font-family: "Vidaloka","Omnes";
+	font-size: 22px;
+	color:#FFE0C6; 
+	text-align: center;
+}
+
+nav.contatos ul{
+	margin-right: 30px;
+	margin-left: -40px;
+}
+
+nav.contatos li{
+	display: inline-block;	
+}
+
+nav.contatos a{
+	background-color: #CC7C57;	
+	width: 120px;
+	border-radius: 10px;
+	color: #ebeef4;
+	border-left: 0;
+	margin-left: 10px;
+	font-size: 22px;
+}
+
+#face{
+	background-color: #3b5998;
+}
+
+#twit{
+	background-color: #00aced;
+}
+
+#email{
+	background-color: #ea4335;
+}
+
+/* ^ Sections   Images v */
+
+div.imgs{
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.hor_img{
+	height: 300px;
+	width: 466px;
+	max-width: 100%;
+}
+
+.ver_img350, .ver_img250, .ver_img300{
+	height: 350px;
+}
+
+.ver_img250{
+	width: 250px;
+}
+
+.ver_img300{
+	width: 300px;
+}
+
+.ver_img350{
+	width: 350px;
+}
+
+@media screen and (max-width: 1084px){
+	nav.menu a{
+		border-left: solid 0px;
+		width: 40vw;
+	}
+
+	p, h2{
+		text-align: center;
+	}
+
+	.about{
+		margin-left: 25vw;
+	}
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 700px){
+	
+	.about{
+		margin-left: 3vw;
+	}
+
+	section.about h2{
+		width: 90vw;
+	}
+
+	section.about p{
+		font-size: 5vw;
+	}
+
+	section.about div{
+		width: 90vw;
+	}
+
+	nav.contatos ul{
+
+	}
+
+	nav.contatos a{
+		width: 20vw;
+		height: 6vh;
+		line-height: 6vh;
+		font-size: 4vw;
+	}
+
+	.destaques{
+	margin-top: 5vh;
+	margin-left: 2vw;
+	text-align: center;
+	}
+}
+
+#ilustras, #design, #outros{
+	display: none;
+}
